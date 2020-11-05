@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#main_wrap {
+  max-width: 1400px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #eee;
+}
+#main_container {
+  display: flex;
+  height: calc(100% - 80px);
+  background-color: red;
+}
+
+
+
+/* MAI NAVBAR */
+#main_nav {
+  min-width: 300px;
+  background-color: green;
+}
+.add_playlist_container{
+  display: flex;
+  align-items: center;
+}
+.gray_square {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+  width: 70px;
+  background-color: gray;
+}
+.fa-plus {
+  font-size: 30px;
+  color: green;
+}
+
+
+
+
+
+
+
+#main_content_wrap {
+  width: 100%;
+  overflow: scroll;
+  background-color: pink;
+}
+
+
+
+
+/* MAIN HEADER */
+#main_header {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  height: 80px;
+  background-color: yellow;
+
+}
+
+
+
+
+
+
+
+
+/* MAIN CONTENT */
+#main_content {
+}
+#content_nav {
+  width: 80%;
+  margin: auto;
+  background-color: violet;
+
+}
+#content_nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+#content_nav ul li {
+  list-style: none;
+}
+#main_footer {
+  height: 80px;
+  background-color: gray;
+}
+.cover_section {
+  height: 300px;
+  background-color: lightgreen;
+  border: 1px solid black;
+}
+.cover_container {
+  display: flex;
+}
+.cover_card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  border: 1px solid black;
+}
+.cover_card img {
+  height: 150px;
+}
