@@ -19,34 +19,55 @@
 
 
     <nav id="main_nav">
-      <div class="logo_nav_container">
-        <img src="img/logo.svg" alt="">
-      </div>
-      <nav class="main_aside_nav">
-        <ul>
-          <li> <a href="#">lorem</a> </li>
-          <li> <a href="#">lorem</a> </li>
-          <li> <a href="#">lorem</a> </li>
-        </ul>
-      </nav>
-      <!-- /.main_aside_nav -->
-      <div class="playlist_container">
-        <h3>playlist</h3>
-        <div class="add_playlist_container">
-          <div class="gray_square">
-            <i class="fas fa-plus"></i>
-          </div>
-          <span>crea playlist</span>
+      <div class="up_nav_container">
+        <div class="logo_nav_container">
+          <img src="img/logo.svg" alt="">
         </div>
-        <ul>
-          <li> <a href="#">lorem</a> </li>
-          <li> <a href="#">lorem</a> </li>
-          <li> <a href="#">lorem</a> </li>
-          <li> <a href="#">lorem</a> </li>
-          <li> <a href="#">lorem</a> </li>
-          <li> <a href="#">lorem</a> </li>
-          <li> <a href="#">lorem</a> </li>
-        </ul>
+        <nav class="main_aside_nav">
+          <ul>
+            <li>
+              <i class="fas fa-home aside_icon"></i>
+              <a href="#">Home</a>
+            </li>
+            <li>
+              <i class="fas fa-search aside_icon"></i>
+              <a href="#">Cerca</a>
+            </li>
+            <li>
+              <i class="fas fa-book-dead aside_icon"></i>
+              <a href="#">La tua libreria</a>
+            </li>
+          </ul>
+        </nav>
+        <!-- /.main_aside_nav -->
+        <div class="playlist_container">
+          <h3>playlist</h3>
+          <div class="add_playlist_container">
+            <div class="gray_square">
+              <i class="fas fa-plus"></i>
+            </div>
+            <span>crea playlist</span>
+          </div>
+          <ul class="playlist_list">
+            <li> <a href="#">lorem</a> </li>
+            <li> <a href="#">lorem</a> </li>
+            <li> <a href="#">lorem</a> </li>
+            <li> <a href="#">lorem</a> </li>
+            <li> <a href="#">lorem</a> </li>
+            <li> <a href="#">lorem</a> </li>
+            <li> <a href="#">lorem</a> </li>
+          </ul>
+        </div>
+      </div>
+      <div class="nav_down_container">
+        <div class="user_container">
+          <i class="far fa-arrow-alt-circle-down"></i><a href="#">install app</a>
+          <hr>
+          <div class="user_badge">
+
+            <i class="far fa-user-circle"></i><h3 class="user_name">John Doe</h3>
+          </div>
+        </div>
       </div>
     </nav>
     <!-- /#main_nav -->
@@ -58,8 +79,8 @@
 
 
       <header id="main_header">
-        <div class="upgrade_btn">
-          <a href="#">effettual'upgrade</a>
+        <div class="upgrade_btn_container">
+          <a class="upgrade_btn" href="#">effettual'upgrade</a>
         </div>
         <!-- /.upgrade_btn -->
       </header>
@@ -73,12 +94,12 @@
 
         <nav id="content_nav">
           <ul>
-            <li>lorem</li>
-            <li>lorem</li>
-            <li>lorem</li>
-            <li>lorem</li>
-            <li>lorem</li>
-            <li>lorem</li>
+            <li> <a href="#">lorem</a> </li>
+            <li> <a href="#">lorem</a> </li>
+            <li> <a href="#">lorem</a> </li>
+            <li> <a href="#">lorem</a> </li>
+            <li> <a href="#">lorem</a> </li>
+            <li> <a href="#">lorem</a> </li>
           </ul>
         </nav>
         <!-- /#content_nav -->
@@ -209,7 +230,27 @@
 
 
   <footer id="main_footer">
-
+    <div class="left_footer_container">
+      <img src="img/radar.jpeg" alt="">
+      <div class="footer_title_container">
+        <h3>lorem</h3>
+        <span>lorem</span>
+      </div>
+      <i class="far fa-heart"></i>
+      <i class="far fa-folder"></i>
+    </div>
+    <div class="control_panel_footer">
+      <i class="fas fa-random"></i>
+      <i class="fas fa-step-backward"></i>
+      <i class="far fa-play-circle"></i>
+      <i class="fas fa-step-forward"></i>
+      <i class="fas fa-undo-alt"></i>
+    </div>
+    <div class="right_control_panel_footer">
+      <i class="fas fa-list"></i>
+      <i class="fas fa-desktop"></i>
+      <i class="fas fa-volume-up"></i>
+    </div>
   </footer>
 </div>
 <!-- /#main_container -->
