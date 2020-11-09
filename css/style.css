@@ -4,6 +4,11 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+
+
+
+
 ul li {
   list-style: none;
 }
@@ -22,6 +27,8 @@ h2 {
 h3 {
   margin: 10px 0;
 }
+
+
 #main_wrap {
   margin: auto;
   display: flex;
@@ -44,13 +51,19 @@ h3 {
   min-width: 300px;
   background-color: black;
 }
+/* LOGO */
 .logo_nav_container {
   padding: 20px 20px;
 }
 .logo_nav_container img {
   height: 40px;
-
 }
+.logo_small {
+  display: none;
+}
+
+
+/* MAIN ASIDE NAV */
 .main_aside_nav {
   padding: 20px 0;
 }
@@ -72,6 +85,9 @@ h3 {
 #main_nav ul li img {
   height: 25px;
 }
+
+
+/* ASIDE PLAYLIST */
 .aside_playlist_container {
   overflow: hidden;
 }
@@ -114,6 +130,11 @@ h3 {
 .playlist_title {
   padding-left: 20px;
 }
+
+/* MAIN NAV DOWN */
+.nav_down_container {
+  padding: 0 20px;
+}
 .user_name {
   font-size: 20px;
   display: inline-block;
@@ -134,21 +155,15 @@ h3 {
   font-size: 30px;
   margin-right: 10px;
 }
-.nav_down_container {
-  padding: 0 20px;
-}
 
 
-
-
+/* MAIN CONTENT WRAP */
 #main_content_wrap {
   width: 100%;
   overflow-x: hidden;
   overflow-y: scroll;
   background-color: #141922;
 }
-
-
 
 
 /* MAIN HEADER */
@@ -173,20 +188,15 @@ h3 {
 }
 
 
-
-
-
-
-
-
 /* MAIN CONTENT */
 #main_content {
   padding: 30px 0;
 }
+
+/* CONTENT NAV */
 #content_nav {
   width: 70%;
   margin: auto;
-
 }
 #content_nav a {
   text-transform: uppercase;
@@ -213,9 +223,15 @@ h3 {
 .content_nav_item:hover .green_row {
    opacity: 1;
 }
+
+
+/* PLAYLIST CONTAINER */
 .playlist_container {
   padding: 0 20px;
 }
+
+
+/* PLAYLIST CARD */
 .card_cover {
   padding: 20px 20px;
   margin-bottom: 20px;
@@ -238,6 +254,8 @@ h3 {
 .card_cover span {
   color: gray;
 }
+
+/* PLAYLIST CARD IMG OVERLAY */
 .overlay {
   position: absolute;
   top: 0;
@@ -262,8 +280,10 @@ h3 {
 .img_container:hover .fa-play-circle {
   opacity: 1;
 }
-/* FOOTER */
 
+
+
+/* FOOTER */
 #main_footer {
   display: flex;
   justify-content: space-between;
@@ -281,20 +301,29 @@ h3 {
   padding: 0 20px;
   flex-basis: 33.33%
 }
+.main_footer .fas, .main_footer .far {
+  margin: 0 20px;
+}
+
+
+/* LEFT FOOTER CONTAINER */
 .left_footer_container {
   display: flex;
   align-items:center;
+}
+.left_footer_container h3 {
+  margin: 2px 0;
 }
 .footer_title_container {
   max-width: 150px;
   padding: 20px;
 }
-.left_footer_container h3 {
-  margin: 2px 0;
-}
 .heart_and_folder_box {
   display: flex;
 }
+
+
+/* CONTROL PANEL */
 .control_panel {
   text-align: center;
 }
@@ -343,6 +372,9 @@ h3 {
 .slider_container:hover .slider_hover {
   background-color:  green;
 }
+
+
+/* FOOTER RIGHT CONTROL PANEL  */
 .right_control_panel_footer {
   display: flex;
   align-items: center;
@@ -393,9 +425,6 @@ h3 {
 
 
 
-.main_footer .fas, .main_footer .far {
-  margin: 0 20px;
-}
 
 
 
@@ -433,6 +462,7 @@ h3 {
 }
 nav#main_nav {
   min-width: 40px;
+  transition: min-width 0.5s linear;
   align-items: center;
 }
 
@@ -461,6 +491,10 @@ nav#main_nav {
 .nav_down_container {
   align-self: flex-end;
 }
+.logo_small {
+  display: block;
+}
+
 }
 @media all and (max-width: 1350px) and (min-width: 1200px) {
   .col_ml {
