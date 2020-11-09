@@ -21,8 +21,7 @@
 
 
     <nav id="main_nav">
-      <div class="up_nav_container">
-        <div class="logo_nav_container">
+      <div class="logo_nav_container">
           <img src="img/logo.svg" alt="">
         </div>
         <nav class="main_aside_nav">
@@ -41,7 +40,6 @@
             </li>
           </ul>
         </nav>
-        <!-- /.main_aside_nav -->
         <div class="aside_playlist_container">
           <h4 class="playlist_title">PLAYLIST</h3>
           <div class="add_playlist_container">
@@ -50,17 +48,21 @@
             </div>
             <span>Crea Playlist</span>
           </div>
-          <ul class="playlist_list">
-            <li> <a href="#">Nuova Playlist</a> </li>
-            <li> <a href="#">Nuova Playlist</a> </li>
-            <li> <a href="#">Nuova Playlist</a> </li>
-            <li> <a href="#">Nuova Playlist</a> </li>
-            <li> <a href="#">Nuova Playlist</a> </li>
-            <li> <a href="#">Nuova Playlist</a> </li>
-            <li> <a href="#">Nuova Playlist</a> </li>
-          </ul>
+          <div class="playlist_list_box">
+            <ul class="playlist_list">
+              <li> <a href="#">Nuova Playlist</a> </li>
+              <li> <a href="#">Nuova Playlist</a> </li>
+              <li> <a href="#">Nuova Playlist</a> </li>
+              <li> <a href="#">Nuova Playlist</a> </li>
+              <li> <a href="#">Nuova Playlist</a> </li>
+              <li> <a href="#">Nuova Playlist</a> </li>
+              <li> <a href="#">Nuova Playlist</a> </li>
+            </ul>
+          </div>
         </div>
-      </div>
+
+
+
       <div class="nav_down_container">
         <div class="user_container">
           <i class="far fa-arrow-alt-circle-down"></i><a href="#">install app</a>
@@ -413,16 +415,29 @@
       <i class="far fa-folder"></i>
     </div>
     <div class="control_panel_footer">
-      <i class="fas fa-random"></i>
-      <i class="fas fa-step-backward"></i>
-      <i class="far fa-play-circle"></i>
-      <i class="fas fa-step-forward"></i>
-      <i class="fas fa-undo-alt"></i>
+      <div class="control_panel">
+        <i class="fas fa-random"></i>
+        <i class="fas fa-step-backward"></i>
+        <i class="far fa-play-circle"></i>
+        <i class="fas fa-step-forward"></i>
+        <i class="fas fa-undo-alt"></i>
+      </div>
+      <div class="slider_container">
+        <hr class="slider_background">
+        <hr class="slider_hover">
+        <div class="slider_button"></div>
+      </div>
     </div>
     <div class="right_control_panel_footer">
       <i class="fas fa-list"></i>
       <i class="fas fa-desktop"></i>
       <i class="fas fa-volume-up"></i>
+      <div class="slider_container_volume">
+        <hr class="slider_background_volume">
+        <hr class="slider_hover_volume">
+        <div class="slider_button_volume"></div>
+      </div>
+
     </div>
   </footer>
 </div>
