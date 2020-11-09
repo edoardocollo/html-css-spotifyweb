@@ -5,7 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>SpotifyClone</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -26,36 +28,36 @@
         <nav class="main_aside_nav">
           <ul>
             <li>
-              <i class="fas fa-home aside_icon"></i>
+              <img src="img/home.svg" alt="">
               <a href="#">Home</a>
             </li>
             <li>
-              <i class="fas fa-search aside_icon"></i>
+              <img src="img/search.svg" alt="">
               <a href="#">Cerca</a>
             </li>
             <li>
-              <i class="fas fa-book-dead aside_icon"></i>
+              <img src="img/libreria.svg" alt="">
               <a href="#">La tua libreria</a>
             </li>
           </ul>
         </nav>
         <!-- /.main_aside_nav -->
-        <div class="playlist_container">
-          <h3>playlist</h3>
+        <div class="aside_playlist_container">
+          <h4 class="playlist_title">PLAYLIST</h3>
           <div class="add_playlist_container">
             <div class="gray_square">
               <i class="fas fa-plus"></i>
             </div>
-            <span>crea playlist</span>
+            <span>Crea Playlist</span>
           </div>
           <ul class="playlist_list">
-            <li> <a href="#">lorem</a> </li>
-            <li> <a href="#">lorem</a> </li>
-            <li> <a href="#">lorem</a> </li>
-            <li> <a href="#">lorem</a> </li>
-            <li> <a href="#">lorem</a> </li>
-            <li> <a href="#">lorem</a> </li>
-            <li> <a href="#">lorem</a> </li>
+            <li> <a href="#">Nuova Playlist</a> </li>
+            <li> <a href="#">Nuova Playlist</a> </li>
+            <li> <a href="#">Nuova Playlist</a> </li>
+            <li> <a href="#">Nuova Playlist</a> </li>
+            <li> <a href="#">Nuova Playlist</a> </li>
+            <li> <a href="#">Nuova Playlist</a> </li>
+            <li> <a href="#">Nuova Playlist</a> </li>
           </ul>
         </div>
       </div>
@@ -94,130 +96,301 @@
 
         <nav id="content_nav">
           <ul>
-            <li> <a href="#">lorem</a> </li>
-            <li> <a href="#">lorem</a> </li>
-            <li> <a href="#">lorem</a> </li>
-            <li> <a href="#">lorem</a> </li>
-            <li> <a href="#">lorem</a> </li>
-            <li> <a href="#">lorem</a> </li>
+            <li>
+              <div class="content_nav_item">
+                <a href="#">lorem</a>
+                <div class="green_row"></div>
+              </div>
+            </li>
+            <li>
+              <div class="content_nav_item">
+                <a href="#">lorem</a>
+                <div class="green_row"></div>
+              </div>
+            </li>
+            <li>
+              <div class="content_nav_item">
+                <a href="#">lorem</a>
+                <div class="green_row"></div>
+              </div>
+            </li>
+            <li>
+              <div class="content_nav_item">
+                <a href="#">lorem</a>
+                <div class="green_row"></div>
+              </div>
+            </li>
+            <li>
+              <div class="content_nav_item">
+                <a href="#">lorem</a>
+                <div class="green_row"></div>
+              </div>
+            </li>
+            <li>
+              <div class="content_nav_item">
+                <a href="#">lorem</a>
+                <div class="green_row"></div>
+              </div>
+            </li>
           </ul>
         </nav>
         <!-- /#content_nav -->
 
 
-
-
-        <section id="recently_played" class="cover_section">
-          <h2>recently played</h2>
-          <div class="cover_container">
-            <div class="cover_card">
-              <img src="img/mixdaily.jpeg" alt="">
-              <h3>heavy metal</h3>
-              <span>subtitle</span>
+        <section id="recently_played">
+          <div class="containerfluid playlist_container">
+          <div class="row">
+            <div class="col-lg-12">
+              <h2>playlist</h2>
             </div>
-            <div class="cover_card">
-              <img src="img/mixdaily.jpeg" alt="">
-              <h3>heavy metal</h3>
-              <span>subtitle</span>
+            <div class="col-lg-2 col_ml col-md-4 col-sm-6 col-xs-12 text-center  ">
+              <div class="card_cover">
+                <div class="img_container">
+                  <img class="img-responsive" src="img/colle.jpeg" alt="">
+                  <div class="overlay">
+                  </div>
+                  <i class="far fa-play-circle"></i>
+                </div>
+                <h3>lorem</h3>
+                <span>lorem</span>
+              </div>
             </div>
-            <div class="cover_card">
-              <img src="img/mixdaily.jpeg" alt="">
-              <h3>heavy metal</h3>
-              <span>subtitle</span>
+            <div class="col-lg-2 col_ml col-md-4 col-sm-6 col-xs-12 text-center  ">
+              <div class="card_cover">
+                <div class="img_container">
+                  <img class="img-responsive" src="img/colle.jpeg" alt="">
+                  <div class="overlay">
+                  </div>
+                  <i class="far fa-play-circle"></i>
+                </div>
+                <h3>lorem</h3>
+                <span>lorem</span>
+              </div>
             </div>
-            <div class="cover_card">
-              <img src="img/mixdaily.jpeg" alt="">
-              <h3>heavy metal</h3>
-              <span>subtitle</span>
+            <div class="col-lg-2 col_ml col-md-4 col-sm-6 col-xs-12 text-center  ">
+              <div class="card_cover">
+                <div class="img_container">
+                  <img class="img-responsive" src="img/colle.jpeg" alt="">
+                  <div class="overlay">
+                  </div>
+                  <i class="far fa-play-circle"></i>
+                </div>
+                <h3>lorem</h3>
+                <span>lorem</span>
+              </div>
             </div>
-            <div class="cover_card">
-              <img src="img/mixdaily.jpeg" alt="">
-              <h3>heavy metal</h3>
-              <span>subtitle</span>
+            <div class="col-lg-2 col_ml col-md-4 col-sm-6 col-xs-12 text-center  ">
+              <div class="card_cover">
+                <div class="img_container">
+                  <img class="img-responsive" src="img/colle.jpeg" alt="">
+                  <div class="overlay">
+                  </div>
+                  <i class="far fa-play-circle"></i>
+                </div>
+                <h3>lorem</h3>
+                <span>lorem</span>
+              </div>
             </div>
-            <div class="cover_card">
-              <img src="img/mixdaily.jpeg" alt="">
-              <h3>heavy metal</h3>
-              <span>subtitle</span>
+            <div class="col-lg-2 col_ml col-md-4 col-sm-6 col-xs-12 text-center  ">
+              <div class="card_cover">
+                <div class="img_container">
+                  <img class="img-responsive" src="img/colle.jpeg" alt="">
+                  <div class="overlay">
+                  </div>
+                  <i class="far fa-play-circle"></i>
+                </div>
+                <h3>lorem</h3>
+                <span>lorem</span>
+              </div>
             </div>
-
+            <div class="col-lg-2 col_ml col-md-4 col-sm-6 col-xs-12 text-center  ">
+              <div class="card_cover">
+                <div class="img_container">
+                  <img class="img-responsive" src="img/colle.jpeg" alt="">
+                  <div class="overlay">
+                  </div>
+                  <i class="far fa-play-circle"></i>
+                </div>
+                <h3>lorem</h3>
+                <span>lorem</span>
+              </div>
+            </div>
           </div>
+        </div>
         </section>
-        <!-- /#recently_played.cover_section -->
-        <section id="recently_played" class="cover_section">
-          <h2>recently played</h2>
-          <div class="cover_container">
-            <div class="cover_card">
-              <img src="img/mixdaily.jpeg" alt="">
-              <h3>heavy metal</h3>
-              <span>subtitle</span>
-            </div>
-            <div class="cover_card">
-              <img src="img/mixdaily.jpeg" alt="">
-              <h3>heavy metal</h3>
-              <span>subtitle</span>
-            </div>
-            <div class="cover_card">
-              <img src="img/mixdaily.jpeg" alt="">
-              <h3>heavy metal</h3>
-              <span>subtitle</span>
-            </div>
-            <div class="cover_card">
-              <img src="img/mixdaily.jpeg" alt="">
-              <h3>heavy metal</h3>
-              <span>subtitle</span>
-            </div>
-            <div class="cover_card">
-              <img src="img/mixdaily.jpeg" alt="">
-              <h3>heavy metal</h3>
-              <span>subtitle</span>
-            </div>
-            <div class="cover_card">
-              <img src="img/mixdaily.jpeg" alt="">
-              <h3>heavy metal</h3>
-              <span>subtitle</span>
-            </div>
 
-          </div>
-        </section>
-        <!-- /#recently_played.cover_section -->
-        <section id="recently_played" class="cover_section">
-          <h2>recently played</h2>
-          <div class="cover_container">
-            <div class="cover_card">
-              <img src="img/mixdaily.jpeg" alt="">
-              <h3>heavy metal</h3>
-              <span>subtitle</span>
-            </div>
-            <div class="cover_card">
-              <img src="img/mixdaily.jpeg" alt="">
-              <h3>heavy metal</h3>
-              <span>subtitle</span>
-            </div>
-            <div class="cover_card">
-              <img src="img/mixdaily.jpeg" alt="">
-              <h3>heavy metal</h3>
-              <span>subtitle</span>
-            </div>
-            <div class="cover_card">
-              <img src="img/mixdaily.jpeg" alt="">
-              <h3>heavy metal</h3>
-              <span>subtitle</span>
-            </div>
-            <div class="cover_card">
-              <img src="img/mixdaily.jpeg" alt="">
-              <h3>heavy metal</h3>
-              <span>subtitle</span>
-            </div>
-            <div class="cover_card">
-              <img src="img/mixdaily.jpeg" alt="">
-              <h3>heavy metal</h3>
-              <span>subtitle</span>
-            </div>
 
+        <section id="john_doe">
+          <div class="containerfluid playlist_container">
+          <div class="row">
+            <div class="col-lg-12">
+              <h2>playlist</h2>
+            </div>
+            <div class="col-lg-2 col_ml col-md-4 col-sm-6 col-xs-12 text-center  ">
+              <div class="card_cover">
+                <div class="img_container">
+                  <img class="img-responsive" src="img/colle.jpeg" alt="">
+                  <div class="overlay">
+                  </div>
+                  <i class="far fa-play-circle"></i>
+                </div>
+                <h3>lorem</h3>
+                <span>lorem</span>
+              </div>
+            </div>
+            <div class="col-lg-2 col_ml col-md-4 col-sm-6 col-xs-12 text-center  ">
+              <div class="card_cover">
+                <div class="img_container">
+                  <img class="img-responsive" src="img/colle.jpeg" alt="">
+                  <div class="overlay">
+                  </div>
+                  <i class="far fa-play-circle"></i>
+                </div>
+                <h3>lorem</h3>
+                <span>lorem</span>
+              </div>
+            </div>
+            <div class="col-lg-2 col_ml col-md-4 col-sm-6 col-xs-12 text-center  ">
+              <div class="card_cover">
+                <div class="img_container">
+                  <img class="img-responsive" src="img/colle.jpeg" alt="">
+                  <div class="overlay">
+                  </div>
+                  <i class="far fa-play-circle"></i>
+                </div>
+                <h3>lorem</h3>
+                <span>lorem</span>
+              </div>
+            </div>
+            <div class="col-lg-2 col_ml col-md-4 col-sm-6 col-xs-12 text-center  ">
+              <div class="card_cover">
+                <div class="img_container">
+                  <img class="img-responsive" src="img/colle.jpeg" alt="">
+                  <div class="overlay">
+                  </div>
+                  <i class="far fa-play-circle"></i>
+                </div>
+                <h3>lorem</h3>
+                <span>lorem</span>
+              </div>
+            </div>
+            <div class="col-lg-2 col_ml col-md-4 col-sm-6 col-xs-12 text-center  ">
+              <div class="card_cover">
+                <div class="img_container">
+                  <img class="img-responsive" src="img/colle.jpeg" alt="">
+                  <div class="overlay">
+                  </div>
+                  <i class="far fa-play-circle"></i>
+                </div>
+                <h3>lorem</h3>
+                <span>lorem</span>
+              </div>
+            </div>
+            <div class="col-lg-2 col_ml col-md-4 col-sm-6 col-xs-12 text-center  ">
+              <div class="card_cover">
+                <div class="img_container">
+                  <img class="img-responsive" src="img/colle.jpeg" alt="">
+                  <div class="overlay">
+                  </div>
+                  <i class="far fa-play-circle"></i>
+                </div>
+                <h3>lorem</h3>
+                <span>lorem</span>
+              </div>
+            </div>
           </div>
+        </div>
         </section>
-        <!-- /#recently_played.cover_section -->
+
+
+        <section id="popular">
+          <div class="containerfluid playlist_container">
+          <div class="row">
+            <div class="col-lg-12">
+              <h2>playlist</h2>
+            </div>
+            <div class="col-lg-2 col_ml col-md-4 col-sm-6 col-xs-12 text-center  ">
+              <div class="card_cover">
+                <div class="img_container">
+                  <img class="img-responsive" src="img/colle.jpeg" alt="">
+                  <div class="overlay">
+                  </div>
+                  <i class="far fa-play-circle"></i>
+                </div>
+                <h3>lorem</h3>
+                <span>lorem</span>
+              </div>
+            </div>
+            <div class="col-lg-2 col_ml col-md-4 col-sm-6 col-xs-12 text-center  ">
+              <div class="card_cover">
+                <div class="img_container">
+                  <img class="img-responsive" src="img/colle.jpeg" alt="">
+                  <div class="overlay">
+                  </div>
+                  <i class="far fa-play-circle"></i>
+                </div>
+                <h3>lorem</h3>
+                <span>lorem</span>
+              </div>
+            </div>
+            <div class="col-lg-2 col_ml col-md-4 col-sm-6 col-xs-12 text-center  ">
+              <div class="card_cover">
+                <div class="img_container">
+                  <img class="img-responsive" src="img/colle.jpeg" alt="">
+                  <div class="overlay">
+                  </div>
+                  <i class="far fa-play-circle"></i>
+                </div>
+                <h3>lorem</h3>
+                <span>lorem</span>
+              </div>
+            </div>
+            <div class="col-lg-2 col_ml col-md-4 col-sm-6 col-xs-12 text-center  ">
+              <div class="card_cover">
+                <div class="img_container">
+                  <img class="img-responsive" src="img/colle.jpeg" alt="">
+                  <div class="overlay">
+                  </div>
+                  <i class="far fa-play-circle"></i>
+                </div>
+                <h3>lorem</h3>
+                <span>lorem</span>
+              </div>
+            </div>
+            <div class="col-lg-2 col_ml col-md-4 col-sm-6 col-xs-12 text-center  ">
+              <div class="card_cover">
+                <div class="img_container">
+                  <img class="img-responsive" src="img/colle.jpeg" alt="">
+                  <div class="overlay">
+                  </div>
+                  <i class="far fa-play-circle"></i>
+                </div>
+                <h3>lorem</h3>
+                <span>lorem</span>
+              </div>
+            </div>
+            <div class="col-lg-2 col_ml col-md-4 col-sm-6 col-xs-12 text-center  ">
+              <div class="card_cover">
+                <div class="img_container">
+                  <img class="img-responsive" src="img/colle.jpeg" alt="">
+                  <div class="overlay">
+                  </div>
+                  <i class="far fa-play-circle"></i>
+                </div>
+                <h3>lorem</h3>
+                <span>lorem</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        </section>
+
+
+
+
+
+
+
       </div>
       <!-- /#main_content -->
     </div>
